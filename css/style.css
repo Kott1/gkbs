@@ -76,6 +76,7 @@ margin: 0;
     font-size: 30px;
     line-height: 36px;
     margin: 0;
+    font-weight: normal;
 }
 
 .about-product-heading {
@@ -162,8 +163,16 @@ width: 100%;
 .screenshots-figure {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 27px 0;
-    width: 50%;
+    margin: 0;
+    width: 48%;
+}
+
+.screenshots-margin-bottom {
+    margin-bottom: 27px;
+}
+
+.screenshots-margin-right {
+    margin-right: 30px;
 }
 
 .screenshot {
@@ -177,4 +186,150 @@ width: 100%;
     margin: 0 0 13px 0;
     font-size: 24px;
     line-height: 30px;
+}
+
+.reviews {
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.reviews-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 29px;
+}
+
+.reviews-figure {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.reviews-margin-bottom {
+    margin-bottom: 22px;
+}
+
+.reviews-margin-right {
+    margin-right: 20px;
+}
+
+.reviews-img {
+    background-color: #445161;
+    width: 66px;
+    height: 66px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.reviews-figcap {
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    position: relative;
+    padding: 16px 10px 10px 16px;
+}
+
+.reviews-figcap::before {
+    content: "";
+    display: block;
+    border: 24px solid transparent;
+    border-right: 24px solid #EBEBEB;
+    position: absolute;
+    top: 25px;
+    left: -35px;
+}
+
+.reviews-txt {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.reviews-span {
+    display: block;
+    font-style: italic;
+    color: #989898;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.cards {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.cards-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.card {
+    background-color: #445161;
+    width: 300px;
+    padding-bottom: 20px;
+    border: 2px  solid #445161;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-margin {
+    margin-right: 45px;
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.card-price  {
+    color: #445162;
+    font-size: 40px;
+    line-height: 30px;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-list {
+    margin: 8px 0 0 0;
+    padding-left: 30px;
+}
+
+.card-list-item {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.card-btn {
+    text-decoration: none;
+    color: #445161;
+    background-color: white;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 100px;
+    display: block;
+    margin: 0 auto;
+    width: 262px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 16px 20px 0 20px;
 }
